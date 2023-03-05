@@ -1,0 +1,15 @@
+{
+  "normal distribution": {
+    "v0_value" : 350,
+    "alpha_value" : 45,
+    "scale": 2,
+    "size": 8000
+  },
+  "uniform distribution": {
+    "v0_low" : 221,
+    "v0_high": 293,
+    "alpha_low": 35,
+    "alpha_high": 90,
+    "size": 8000
+  }
+}
