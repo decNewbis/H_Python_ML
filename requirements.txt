@@ -1,7 +1,5 @@
-pandas
-numpy
-torch
 matplotlib
+numpy
 scikit-learn
-notebook
-torchmetrics
+torch
+pandas
