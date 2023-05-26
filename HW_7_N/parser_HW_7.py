@@ -1,10 +1,12 @@
 import re
+
 import requests
+
 from bs4 import BeautifulSoup
 
 
 for i in range(1, 100):
-    site = f'https://stock.adobe.com/search/images?filters%5Bcontent_type%3Aphoto%5D=1&filters%5Bcontent_type%3Aimage%5D=1&filters%5Breleases%3Ais_exclude%5D=1&order=relevance&safe_search=1&limit=100&search_page={i}&search_type=filter-select&acp=&aco=lion&load_type=page&k=lion&get_facets=1'
+    site = f'your_link{i}'
     response = requests.get(site)
     soup = BeautifulSoup(response.text, 'html.parser')
     print(soup)
